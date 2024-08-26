@@ -54,4 +54,4 @@ if __name__ == "__main__":
 
 ```
 
-4. Загружаем на сервер все файлы (my_account_session.session, .env(с данными от https://my.telegram.org/auth), Procfile, main.py, requirements.txt, Readme и Dockerfile для сборки в контейнере) и пользуемся!
+4. Загружаем на сервер все файлы (my_account_session.session, .gitignore, Procfile, main.py, requirements.txt, Readme и Dockerfile для сборки в контейнере) и пользуемся!
