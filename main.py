@@ -4,7 +4,6 @@ from decouple import config
 
 API_ID = config("API_ID")
 API_HASH = config("API_HASH")
-# BOT_TOKEN = config("BOT_TOKEN")
 
 app = Client("auto_responder_bot", api_id=API_ID, api_hash=API_HASH)
 
