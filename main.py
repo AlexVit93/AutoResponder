@@ -19,8 +19,8 @@ async def auto_response(client, message):
     now_weekday = local_time.weekday() 
     if (now_hour >= end_hour and now_hour < start_hour) or now_weekday in [5, 6]: 
         await message.reply("Извините, я сейчас недоступен. Пожалуйста, свяжитесь со мной с 14:00 до 01:00 по UTC+3 в будние дни.")
-    else:
-        await message.reply("Спасибо за ваше сообщение. Я постараюсь ответить вам как можно скорее!")
+    # else:
+    #     await message.reply("Спасибо за ваше сообщение. Я постараюсь ответить вам как можно скорее!")
 
 if __name__ == "__main__":
     print("Bot is running...")
