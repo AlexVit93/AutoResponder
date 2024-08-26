@@ -8,7 +8,7 @@ API_HASH = config("API_HASH")
 app = Client("auto_responder_bot", api_id=API_ID, api_hash=API_HASH)
 
 start_hour = 14
-end_hour = 0
+end_hour = 2
 timezone_offset = 3 
 
 @app.on_message(filters.private)
